@@ -45,7 +45,7 @@ You can access the interactive dashboard on Tableau Public by clicking [here](ht
 
 Below is a preview of the interactive dashboard:
 
-![Dashboard Preview](imng/dash.png)
+![Dashboard Preview](imng/Dash.png)
 
 ## Filter Functionality
 
