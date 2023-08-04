@@ -1,6 +1,5 @@
 # Tesla-Stock-Analysis-Dashboard
 
-# Stock Data Analysis and Dashboard Project
 
 This repository contains the code and data for performing analysis on Test Stock and creating an interactive dashboard to visualize the insights. The stock data has been scraped using Python from a reliable source and is utilized to generate various visualizations and metrics.
 
