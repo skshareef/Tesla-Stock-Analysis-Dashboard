@@ -14,10 +14,8 @@ This repository contains the code and data for performing analysis on Test Stock
 6. [Full Dashboard Preview](#full-dashboard-preview)
 7. [Filter Functionality](#filter-functionality)
 8. [Graph Descriptions](#graph-descriptions)
-9. [Usage](#usage)
-10. [Dependencies](#dependencies)
-11. [Contributing](#contributing)
-12. [License](#license)
+9. [Contributing](#contributing)
+
 
 ## Introduction
 
@@ -42,13 +40,13 @@ The dashboard provides an interactive interface to visualize the stock's perform
 
 ## Accessing the Dashboard
 
-You can access the interactive dashboard on Tableau Public by clicking [here](https://public.tableau.com/your-dashboard-url).
+You can access the interactive dashboard on Tableau Public by clicking [here](https://public.tableau.com/shared/DXDS8QQ64?:display_count=n&:origin=viz_share_link).
 
 ## Full Dashboard Preview
 
 Below is a preview of the interactive dashboard:
 
-![Dashboard Preview](dashboard_preview.png)
+![Dashboard Preview](imng/dash.png)
 
 ## Filter Functionality
 
@@ -57,39 +55,23 @@ The dashboard includes a filter that enables users to select specific time durat
 ## Graph Descriptions
 
 1. Graph 1: Daily Close Price
-   ![Graph 1](graph1.png)
+   ![Graph 1](img/g1.png)
    This line plot shows the daily closing prices of Test Stock over the selected time duration. It helps visualize the overall trend of the stock.
 
 2. Graph 2: Daily High and Low Prices
-   ![Graph 2](graph2.png)
+   ![Graph 2](img/g2.png)
    The candlestick chart illustrates the daily high and low prices of the stock over the chosen period, giving insights into price fluctuations.
 
 3. Graph 3: Volume Traded
-   ![Graph 3](graph3.png)
+   ![Graph 3](img/g3.png)
    The bar chart represents the volume of stock traded on each trading day during the selected time range, providing an overview of trading activity.
 
 4. Graph 4: Open-Close Change
-   ![Graph 4](graph4.png)
+   ![Graph 4](img/g4.png)
    This bar chart showcases the difference between the opening and closing prices of the stock on a specific date. It helps identify days with significant price changes.
 
-## Usage
 
-To use the dashboard, ensure you have the necessary dependencies installed (listed in the [Dependencies](#dependencies) section). Run the main Python script, and it will automatically launch the dashboard in your default web browser. Select a filter option to view the corresponding data on the graphs.
 
-## Dependencies
-
-This project relies on the following Python libraries:
-- Pandas
-- Dash
-- Plotly
-- Beautiful Soup (for data scraping)
-- Requests (for data scraping)
-
-You can install these dependencies using the following command:
-```bash
-pip install pandas dash plotly beautifulsoup4 requests
-
-```
 
 ## Contributing
 Contributions to this project are welcome. If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
