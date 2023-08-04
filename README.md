@@ -1,5 +1,7 @@
 # Tesla-Stock-Analysis-Dashboard
 
+# Stock Data Analysis and Dashboard Project
+
 This repository contains the code and data for performing analysis on Test Stock and creating an interactive dashboard to visualize the insights. The stock data has been scraped using Python from a reliable source and is utilized to generate various visualizations and metrics.
 
 ## Table of Contents
@@ -8,12 +10,14 @@ This repository contains the code and data for performing analysis on Test Stock
 2. [Data Collection](#data-collection)
 3. [Data Analysis](#data-analysis)
 4. [Dashboard](#dashboard)
-5. [Filter Functionality](#filter-functionality)
-6. [Graph Descriptions](#graph-descriptions)
-7. [Usage](#usage)
-8. [Dependencies](#dependencies)
-9. [Contributing](#contributing)
-
+5. [Accessing the Dashboard](#accessing-the-dashboard)
+6. [Full Dashboard Preview](#full-dashboard-preview)
+7. [Filter Functionality](#filter-functionality)
+8. [Graph Descriptions](#graph-descriptions)
+9. [Usage](#usage)
+10. [Dependencies](#dependencies)
+11. [Contributing](#contributing)
+12. [License](#license)
 
 ## Introduction
 
@@ -36,16 +40,37 @@ The dashboard provides an interactive interface to visualize the stock's perform
 3. Graph 3: Volume Traded - A bar chart indicating the traded volume for each trading day.
 4. Graph 4: Open-Close Change - A bar chart showcasing the change between the open and close prices on a specific date.
 
+## Accessing the Dashboard
+
+You can access the interactive dashboard on Tableau Public by clicking [here](https://public.tableau.com/your-dashboard-url).
+
+## Full Dashboard Preview
+
+Below is a preview of the interactive dashboard:
+
+![Dashboard Preview](dashboard_preview.png)
+
 ## Filter Functionality
 
 The dashboard includes a filter that enables users to select specific time durations to analyze. The available filter options are "Last 1 month," "Last 2 months," "Last 5 months," and so on. When a filter option is chosen, the graphs will automatically update to display the data for the selected period.
 
 ## Graph Descriptions
 
-1. Graph 1: Daily Close Price - This line plot shows the daily closing prices of Test Stock over the selected time duration. It helps visualize the overall trend of the stock.
-2. Graph 2: Daily High and Low Prices - The candlestick chart illustrates the daily high and low prices of the stock over the chosen period, giving insights into price fluctuations.
-3. Graph 3: Volume Traded - The bar chart represents the volume of stock traded on each trading day during the selected time range, providing an overview of trading activity.
-4. Graph 4: Open-Close Change - This bar chart showcases the difference between the opening and closing prices of the stock on a specific date. It helps identify days with significant price changes.
+1. Graph 1: Daily Close Price
+   ![Graph 1](graph1.png)
+   This line plot shows the daily closing prices of Test Stock over the selected time duration. It helps visualize the overall trend of the stock.
+
+2. Graph 2: Daily High and Low Prices
+   ![Graph 2](graph2.png)
+   The candlestick chart illustrates the daily high and low prices of the stock over the chosen period, giving insights into price fluctuations.
+
+3. Graph 3: Volume Traded
+   ![Graph 3](graph3.png)
+   The bar chart represents the volume of stock traded on each trading day during the selected time range, providing an overview of trading activity.
+
+4. Graph 4: Open-Close Change
+   ![Graph 4](graph4.png)
+   This bar chart showcases the difference between the opening and closing prices of the stock on a specific date. It helps identify days with significant price changes.
 
 ## Usage
 
