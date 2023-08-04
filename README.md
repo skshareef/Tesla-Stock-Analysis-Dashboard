@@ -13,7 +13,7 @@ This repository contains the code and data for performing analysis on Test Stock
 7. [Usage](#usage)
 8. [Dependencies](#dependencies)
 9. [Contributing](#contributing)
-10. [License](#license)
+
 
 ## Introduction
 
@@ -63,3 +63,8 @@ This project relies on the following Python libraries:
 You can install these dependencies using the following command:
 ```bash
 pip install pandas dash plotly beautifulsoup4 requests
+
+```
+
+## Contributing
+Contributions to this project are welcome. If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
